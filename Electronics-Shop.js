@@ -1,13 +1,14 @@
-Complete the getMoneySpent function in the editor below. It should return the maximum total price for the two items within Monica's budget, or  if she cannot afford both items.
+// Complete the getMoneySpent function in the editor below. It should return the maximum total price for the two items within Monica's budget, or  if she cannot afford both items.
 
-getMoneySpent has the following parameter(s):
+// getMoneySpent has the following parameter(s):
 
-- keyboards: an array of integers representing keyboard prices
-- drives: an array of integers representing drive prices
-- b: the units of currency in Monica's budget
+// keyboards: an array of integers representing keyboard prices
+// drives: an array of integers representing drive prices
+// b: the units of currency in Monica's budget
 
 
-//modularize functions with compareNumbers sorting function
+
+// modularize with compareNumbers sorting function
 
 function compareNumbers(a, b) {
     return a - b;
