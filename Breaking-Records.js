@@ -1,3 +1,10 @@
+// Complete the breakingRecords function in the editor below. It must return an integer array containing the numbers of times 
+// she broke her records. Index is for breaking most points records, and index  is for breaking least points records.
+// breakingRecords has the following parameter(s):
+
+// scores: an array of integers
+
+
 function breakingRecords(scores) {
     let arr = []
     let newarr = []
