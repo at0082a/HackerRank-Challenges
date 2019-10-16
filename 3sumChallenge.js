@@ -5,8 +5,6 @@
 
 //Solution:
 
-let data = [2, -3, 4, 7, 1, 30]
-
 function 3sum (array) {
 let arr = []
 
