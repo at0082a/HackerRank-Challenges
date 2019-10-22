@@ -24,7 +24,7 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 
 
 function checkCard(array) {
-  for (let i = array.length - 1; i > 0; i--) {
+  for (let i = array.length - 1; i >= 0; i--) {
      if (i % 2 !== 0) {
        array[i] *= 2
      }
