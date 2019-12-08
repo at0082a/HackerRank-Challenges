@@ -1,3 +1,5 @@
+//Determine how many times teamA outscored teamB when measuring against all games.
+
 function counts(teamA, teamB) {
     let obj = {}
 
